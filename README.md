@@ -50,7 +50,8 @@ I used the pandas library to read the data from the JuypterNotebook.  I could ch
 <a name="FeatureSelection"/>
 
 ## Feature Selection
-First the data was split into the train/test set. Then, I ranked the features in the training set. Based on the feature ranking, I chose the top xx variables to be in the model. 
+![corr](img/correlation matrix.png)
+After reviewing the correlation matrix, I dropped the redundant variables like Weight and Height since we had BMI in the dataset. 
 
 <a name="modeling"/>
 
