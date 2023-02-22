@@ -21,7 +21,7 @@ There are about 37 million people in the United States who have Chronic Kidney D
 <a name="goals"/>
 
 ## Goal(s)
-### My goal for this analysis is to predict the risk of CKD. 
+My goal for this analysis is to predict the risk of CKD. 
 
 <a name="DataCollectionandDataCleaning"/>
 
