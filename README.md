@@ -69,6 +69,7 @@ After completeing the exploratory data analysis, I concluded that a classificati
 <a name="NextSteps"/>
 
 ## Next Steps
+I would combine this with another dataset for a more robust analysis or try machine learning algorithms like logistic regression or a neural network for the next steps. Also, I would build a web app with a user interface for this model. 
 
 <a name="References"/>
 
