@@ -75,6 +75,8 @@ I created another instance of the decision tree classifier with the best hyperpa
 ## Results
 ![dt](img/decisiontree.png)
 
+The analysis suggests that Diabetes and CVD are strong predictors of Chronic Kidney Disease.
+
 <a name="FinalThoughts"/>
 
 ## Final Thoughts
