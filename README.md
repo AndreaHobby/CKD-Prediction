@@ -61,7 +61,14 @@ After reviewing the correlation matrix, I dropped the redundant variables like W
 ## Modeling
 After completeing the exploratory data analysis, I concluded that a classification decision tree would best to predict CKD. 
 
-### Discuss hyperparameter tuning 
+I performed hyperparameter tuning for a decision tree classifier using grid search with cross-validation. The hyperparameters to be tuned are the criterion for splitting, the maximum depth of the tree, and the minimum number of samples required to split an internal node. I used a dicitionary to specify a range of values for each hyperparameter.
+
+I created an instance of the decision tree classifier and performed a grid search with cross-validation using the specified hyperparameters and the training set. The best hyperparameters are selected based on the highest mean score across all cross-validation folds.
+
+_Best hyperparameters:  {'criterion': 'gini', 'max_depth': 2, 'min_samples_split': 2}_
+
+I created another instance of the decision tree classifier is created with the best hyperparameters, and the model is trained on the training set. I then used the resulting model to make predictions on the testing set.
+
 
 <a name="Results"/>
 
