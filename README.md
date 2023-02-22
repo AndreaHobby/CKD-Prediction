@@ -50,7 +50,8 @@ I used the pandas library to read the data from the JuypterNotebook.  I could ch
 <a name="FeatureSelection"/>
 
 ## Feature Selection
-![corr](img/correlation matrix.png)
+![correlation matrix](img/correlation matrix.png)
+
 After reviewing the correlation matrix, I dropped the redundant variables like Weight and Height since we had BMI in the dataset. 
 
 <a name="modeling"/>
