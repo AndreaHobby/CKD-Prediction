@@ -51,6 +51,8 @@ I used the pandas library to read the data from the JuypterNotebook.  I could ch
 
 ## Feature Selection
 
+![corr](img/correlation%20matrix.png.png)
+
 
 After reviewing the correlation matrix, I dropped the redundant variables like Weight and Height since we had BMI in the dataset. 
 
