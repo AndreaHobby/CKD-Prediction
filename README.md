@@ -21,8 +21,8 @@ Chronic kidney disease (CKD) is when the kidneys are damaged and cannot correctl
 <a name="goals"/>
 
 ## Goal(s)
--My goal for this analysis is to predict the risk of CKD. 
--Identify factors that increase the risk of CKD. 
+- My goal for this analysis is to predict the risk of CKD. 
+- Identify factors that increase the risk of CKD. 
 
 <a name="DataCollectionandDataCleaning"/>
 
