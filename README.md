@@ -30,16 +30,16 @@ Chronic kidney disease (CKD) is when the kidneys are damaged and cannot correctl
 ### Describe data shape
 ### Describe cleaning process
 ### Describe data science pipeline 
--Data
---CSV File
--Processing
---Jupyter Notebook
---Pandas
---NumPy
--Modeling
---Sklean
--Data Visualization
---Matplotlib
+- Data
+-- CSV File
+- Processing
+-- Jupyter Notebook
+-- Pandas
+-- NumPy
+- Modeling
+-- Sklean
+- Data Visualization
+-- Matplotlib
 
 <a name="FeatureSelection"/>
 
