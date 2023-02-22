@@ -30,8 +30,9 @@ Chronic kidney disease (CKD) is when the kidneys are damaged and cannot correctl
 There are 34 columns and 8819 rows in this dataset from NCHS. The data is from adults 20 years of age or older. 
 The data was collected from the 1999 to 2000 and 2001 to 2002 NCHS surveys.
 
-### Describe cleaning process
-### Describe data science pipeline 
+I used the pandas library to read the data from the JuypterNotebook.  I could check variable types, identify outliers and null values, and check for duplicates and class imbalance.
+
+### Data science pipeline 
 - Data
 -- CSV File
 - Processing
