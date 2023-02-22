@@ -16,12 +16,13 @@
 <a name="background"/>
 
 ## Background
-There are about 37 million people in the United States who have Chronic Kidney Disease (CKD). 
+Chronic kidney disease (CKD) is when the kidneys are damaged and cannot correctly filter waste and excess fluids from the blood. About 37 million people in the United States have Chronic Kidney Disease (CKD). Early detection and diagnosis of CKD are essential to preventing its progression to kidney failure. Machine learning models can assist in predicting CKD. A decision tree will be used to analyze National Center for Health Statistics (NCHS) data for this project. Variables such as age, gender, medical history, and laboratory test results will be used. By identifying patterns in the data, models can predict a patient's risk of developing CKD, allowing for early intervention and management. 
 
 <a name="goals"/>
 
 ## Goal(s)
-My goal for this analysis is to predict the risk of CKD. 
+-My goal for this analysis is to predict the risk of CKD. 
+-Identify factors that increase the risk of CKD. 
 
 <a name="DataCollectionandDataCleaning"/>
 
@@ -29,6 +30,16 @@ My goal for this analysis is to predict the risk of CKD.
 ### Describe data shape
 ### Describe cleaning process
 ### Describe data science pipeline 
+-Data
+--CSV File
+-Processing
+--Jupyter Notebook
+--Pandas
+--NumPy
+-Modeling
+--Sklean
+-Data Visualization
+--Matplotlib
 
 <a name="FeatureSelection"/>
 
