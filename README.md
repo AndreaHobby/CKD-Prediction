@@ -76,7 +76,8 @@ Since I chose to create categorical variables from some of the continious variab
 <a name="NextSteps"/>
 
 ## Next Steps
-I would combine this with another dataset for a more robust analysis or try machine learning algorithms like logistic regression or a neural network for the next steps. Also, I would build a web app with a user interface for this model. 
+- Combine this with another dataset for a more robust analysis or try machine learning algorithms like logistic regression or a neural network for the next steps. 
+- Build a web app with a user interface for this model. 
 
 <a name="References"/>
 
