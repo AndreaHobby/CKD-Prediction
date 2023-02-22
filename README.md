@@ -78,7 +78,7 @@ I would combine this with another dataset for a more robust analysis or try mach
 
 <a name="repo"/>
 
-## Repo Structure(optional)
+## Repo Structure
 ```
 ├── /data (data)
 ├── /img (contains all images for repo)
