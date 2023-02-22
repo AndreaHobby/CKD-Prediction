@@ -47,12 +47,13 @@ I used the pandas library to read the data from the JuypterNotebook.  I could ch
 <a name="FeatureSelection"/>
 
 ## Feature Selection
-### Discuss feature selection process 
+First the data was split into the train/test set. Then, I ranked the features in the training set. Based on the feature ranking, I chose the top xx variables to be in the model. 
 
 <a name="modeling"/>
 
 ## Modeling
-### Discuss model selection process
+After completeing the exploratory data analysis, I concluded that a classification decision tree would best to predict CKD. 
+
 ### Discuss hyperparameter tuning 
 
 <a name="Results"/>
