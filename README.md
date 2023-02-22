@@ -1,7 +1,7 @@
 # Predicting CKD
 ### Author: Andrea Hobby, MS
 
-![kidney](img/fnalkidney-comp_10878482.PNG)
+![kidney](img/fnalkidney-comp_10878482.png)
 
 ## Table of Contents
 1. [Background](#background)
