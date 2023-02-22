@@ -65,7 +65,7 @@ After completeing the exploratory data analysis, I concluded that a classificati
 <a name="FinalThoughts"/>
 
 ## Final Thoughts
-### Discuss any obstacles in developing the model and how you overcame them
+Since I chose to create categorical variables from some of the continious variables, it is possible that I lost some information and decreased accuracy. 
 
 <a name="NextSteps"/>
 
