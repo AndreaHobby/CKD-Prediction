@@ -73,7 +73,7 @@ I created another instance of the decision tree classifier with the best hyperpa
 <a name="Results"/>
 
 ## Results
-### Discuss Model Evaluation
+![dt](img/decisiontree.png)
 
 <a name="FinalThoughts"/>
 
