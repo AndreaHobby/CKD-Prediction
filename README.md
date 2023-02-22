@@ -77,7 +77,7 @@ Since I chose to create categorical variables from some of the continious variab
 
 ## Next Steps
 - Combine this with another dataset for a more robust analysis or try machine learning algorithms like logistic regression or a neural network for the next steps. 
-- Build a web app with a user interface for this model. 
+- Build a web app using streamlit with a user interface for this model. 
 
 <a name="References"/>
 
