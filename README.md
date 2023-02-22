@@ -72,6 +72,7 @@ After completeing the exploratory data analysis, I concluded that a classificati
 
 ## Final Thoughts
 Since I chose to create categorical variables from some of the continious variables, it is possible that I lost some information and decreased accuracy. 
+Also, I dropped missing values for this analysis but next time I would consider imputing the missing data. 
 
 <a name="NextSteps"/>
 
