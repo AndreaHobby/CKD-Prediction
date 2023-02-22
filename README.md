@@ -82,7 +82,6 @@ I would combine this with another dataset for a more robust analysis or try mach
 ```
 ├── /data (data)
 ├── /img (contains all images for repo)
-├── 1-DataCleanManip.py
-├── 2-DataModeling.py
+├── Predicting Chronic Kidney Disease.ipynb
 └── README.md
 
