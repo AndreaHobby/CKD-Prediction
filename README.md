@@ -1,4 +1,5 @@
 # Predicting CKD
+### Author: Andrea Hobby, MS
 
 ## Table of Contents
 1. [Background](#background)
