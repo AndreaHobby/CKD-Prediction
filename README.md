@@ -16,11 +16,12 @@
 <a name="background"/>
 
 ## Background
+There are about 37 million people in the United States who have Chronic Kidney Disease (CKD). 
 
 <a name="goals"/>
 
 ## Goal(s)
-### List 2-3 goals
+### My goal for this analysis is to predict the risk of CKD. 
 
 <a name="DataCollectionandDataCleaning"/>
 
