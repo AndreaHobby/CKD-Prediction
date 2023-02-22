@@ -19,7 +19,7 @@
 <a name="background"/>
 
 ## Background
-Chronic kidney disease (CKD) is when the kidneys are damaged and cannot correctly filter waste and excess fluids from the blood. About 37 million people in the United States have Chronic Kidney Disease (CKD). Early detection and diagnosis of CKD are essential to preventing its progression to kidney failure. Machine learning models can assist in predicting CKD. A decision tree will be used to analyze National Center for Health Statistics (NCHS) data for this project. Variables such as age, gender, medical history, and laboratory test results will be used. By identifying patterns in the data, models can predict a patient's risk of developing CKD, allowing for early intervention and management. 
+Chronic kidney disease (CKD) is when the kidneys are damaged and cannot correctly filter waste and excess fluids from the blood. About 37 million people in the United States have Chronic Kidney Disease (CKD). Early detection and diagnosis of CKD are essential to preventing its progression to kidney failure. Machine learning models can assist in predicting CKD. This project will use a decision tree to analyze National Center for Health Statistics (NCHS) data. Variables such as age, gender, medical history, and laboratory test results will be used. By identifying patterns in the data, models can predict a patient's risk of developing CKD, allowing for early intervention and management. 
 
 <a name="goals"/>
 
@@ -59,15 +59,15 @@ After reviewing the correlation matrix, I dropped the redundant variables like W
 <a name="modeling"/>
 
 ## Modeling
-After completeing the exploratory data analysis, I concluded that a classification decision tree would best to predict CKD. 
+After completing the exploratory data analysis, I concluded that a classification decision tree would best predict CKD. 
 
-I performed hyperparameter tuning for a decision tree classifier using grid search with cross-validation. The hyperparameters to be tuned are the criterion for splitting, the maximum depth of the tree, and the minimum number of samples required to split an internal node. I used a dicitionary to specify a range of values for each hyperparameter.
+I performed hyperparameter tuning for a decision tree classifier using grid search with cross-validation. The hyperparameters to be tuned are the criterion for splitting, the maximum depth of the tree, and the minimum number of samples required to split an internal node. I used a dictionary to specify a range of values for each hyperparameter.
 
 I created an instance of the decision tree classifier and performed a grid search with cross-validation using the specified hyperparameters and the training set. The best hyperparameters are selected based on the highest mean score across all cross-validation folds.
 
 _Best hyperparameters:  {'criterion': 'gini', 'max_depth': 2, 'min_samples_split': 2}_
 
-I created another instance of the decision tree classifier is created with the best hyperparameters, and the model is trained on the training set. I then used the resulting model to make predictions on the testing set.
+I created another instance of the decision tree classifier with the best hyperparameters, and the model is trained on the training set. I then used the resulting model to make predictions on the testing set.
 
 
 <a name="Results"/>
@@ -78,8 +78,8 @@ I created another instance of the decision tree classifier is created with the b
 <a name="FinalThoughts"/>
 
 ## Final Thoughts
-Since I chose to create categorical variables from some of the continious variables, it is possible that I lost some information and decreased accuracy. 
-Also, I dropped missing values for this analysis but next time I would consider imputing the missing data. 
+Since I chose to create categorical variables from some of the continuous variables, it is possible that I lost some information and decreased accuracy. 
+Also, I dropped missing values for this analysis, but I would consider imputing the missing data next time. 
 
 <a name="NextSteps"/>
 
