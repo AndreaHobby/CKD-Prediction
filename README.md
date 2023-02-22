@@ -66,6 +66,5 @@
 ├── /img (contains all images for repo)
 ├── 1-DataCleanManip.py
 ├── 2-DataModeling.py
-├── README.md
-└── dataset.csv
+└── README.md
 
