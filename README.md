@@ -1,4 +1,4 @@
-# Predicting CKD
+# Predicting Chronic Kidney Disease
 ### Author: Andrea Hobby, MS
 
 ![kidney](img/fnalkidney-comp_1087848275.png)
@@ -43,7 +43,7 @@ I used the pandas library to read the data from the JuypterNotebook.  I could ch
 -- Pandas
 -- NumPy
 - Modeling
--- Sklean
+-- Sklearn
 - Data Visualization
 -- Matplotlib
 
