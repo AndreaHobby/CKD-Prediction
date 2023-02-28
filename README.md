@@ -1,4 +1,4 @@
-# Predicting Chronic Kidney Disease
+# Predicting Chronic Kidney Disease(This is not a finished project. It will be updated shortly. 
 ### Author: Andrea Hobby, MS
 
 ![kidney](img/fnalkidney-comp_1087848275.png)
