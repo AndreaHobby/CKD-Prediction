@@ -73,19 +73,19 @@ I created another instance of the decision tree classifier with the best hyperpa
 <a name="Results"/>
 
 ## Results
-Decision Tree Performance:
+### Decision Tree Performance:
 Accuracy: 0.7033898305084746
 Precision: 0.6551724137931034
 Recall: 0.7169811320754716
 F1 Score: 0.6846846846846846
 
-Random Forest Performance:
+### Random Forest Performance:
 Accuracy: 0.7711864406779662
 Precision: 0.7321428571428571
 Recall: 0.7735849056603774
 F1 Score: 0.7522935779816513
 
-Gradient Boosting Performance:
+### Gradient Boosting Performance:
 Accuracy: 0.8050847457627118
 Precision: 0.7678571428571429
 Recall: 0.8113207547169812
