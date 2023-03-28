@@ -30,10 +30,9 @@ Chronic kidney disease (CKD) is when the kidneys are damaged and cannot correctl
 <a name="DataCollectionandDataCleaning"/>
 
 ## Data Collection and Data Cleaning
-There are 34 columns and 8819 rows in this dataset from NCHS. The data is from adults 20 years of age or older. 
-The data was collected from the 1999 to 2000 and 2001 to 2002 NCHS surveys.
+The dataset was obtained from the National Center for Health Statistics (NCHS), consisting of 34 columns and 8819 rows. The data was collected from the National Health and Nutrition Examination Surveys conducted during the years 1999 to 2000 and 2001 to 2002. The dataset comprises information from adult participants who were 20 years of age or older.
 
-I used the pandas library to read the data from the JuypterNotebook.  I could check variable types, identify outliers and null values, and check for duplicates and class imbalance.
+Using the pandas library in Jupyter Notebook, the data was thoroughly examined. Variable types were checked, outliers and null values were identified, and duplicates and class imbalance were checked for. Since there was a class imbalance, random undersampling was applied to the dataset with a 1:1 ratio for targets to non-targets.
 
 ### Data science pipeline 
 - Data
@@ -42,10 +41,12 @@ I used the pandas library to read the data from the JuypterNotebook.  I could ch
 -- Jupyter Notebook
 -- Pandas
 -- NumPy
+-- RandomUnderSampler
 - Modeling
 -- Sklearn
 - Data Visualization
 -- Matplotlib
+-- Seaborn
 
 <a name="FeatureSelection"/>
 
