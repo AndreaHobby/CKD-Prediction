@@ -93,8 +93,7 @@ The F1 Score was score was too low for the decision tree so additional models(Ra
 <a name="FinalThoughts"/>
 
 ## Final Thoughts
-Since I chose to create categorical variables from some of the continuous variables, it is possible that I lost some information and decreased accuracy. 
-Also, I dropped missing values for this analysis, but I would consider imputing the missing data next time. 
+In this analysis, I implemented five distinct variations of the model, each with different sampling ratios between the target and nontarget groups. Specifically, I used the ratios 1:1, 1:2, 1:3, 1:4, and 1:5. Through evaluation, I determined that the version with a 1:1 sampling ratio yielded the most favorable F1 score. I hope to extend this analysis in the future.
 
 <a name="NextSteps"/>
 
