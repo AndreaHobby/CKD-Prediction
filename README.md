@@ -60,16 +60,12 @@ After reviewing the correlation matrix, I dropped the redundant variables like W
 <a name="modeling"/>
 
 ## Modeling
-After completing the exploratory data analysis, I concluded that a classification decision tree would best predict CKD. 
 
-I performed hyperparameter tuning for a decision tree classifier using grid search with cross-validation. The hyperparameters to be tuned are the criterion for splitting, the maximum depth of the tree, and the minimum number of samples required to split an internal node. I used a dictionary to specify a range of values for each hyperparameter.
+The first iteration of this model was a decision tree. Hyperparameter tuning was performed for the decision tree classifier using grid search with cross-validation. The hyperparameters considered for tuning were the criterion for splitting, the maximum depth of the tree, and the minimum number of samples required to split an internal node. A dictionary was used to specify a range of values for each hyperparameter.
 
-I created an instance of the decision tree classifier and performed a grid search with cross-validation using the specified hyperparameters and the training set. The best hyperparameters are selected based on the highest mean score across all cross-validation folds.
+A decision tree classifier instance was created and hyperparameter tuning was performed using the training set. The best hyperparameters were selected based on the highest mean score across all cross-validation folds. The best hyperparameters were found to be {'criterion': 'gini', 'max_depth': 2, 'min_samples_split': 2}.
 
-_Best hyperparameters:  {'criterion': 'gini', 'max_depth': 2, 'min_samples_split': 2}_
-
-I created another instance of the decision tree classifier with the best hyperparameters, and the model is trained on the training set. I then used the resulting model to make predictions on the testing set.
-
+The F1 Score was score was too low for the decision tree so additional models(Random Forest and Gradient Boosting Classifier were run. 
 
 <a name="Results"/>
 
