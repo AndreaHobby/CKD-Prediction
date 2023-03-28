@@ -112,6 +112,6 @@ Kidney Disease Statistics for the United States. National Institute of Diabetes 
 ```
 ├── /data (data)
 ├── /img (contains all images for repo)
-├── Predicting Chronic Kidney Disease.ipynb
+├── Predicting-Chronic-Kidney-Disease-Resample.ipynb
 └── README.md
 
