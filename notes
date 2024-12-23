@@ -1,0 +1,66 @@
+Slide Title: Harmonization and Standardization: How USCDI+ is Raising Data Quality at HRSA
+
+Overview:
+
+USCDI (United States Core Data for Interoperability): Fundamental data set ensuring consistent, interoperable data across healthcare.
+
+Application in HRSA: Focused on enhancing data quality and standardization.
+
+CMS Quality Initiatives: Incorporating USCDI in FHIR-based reporting for electronic clinical quality measures (eCQMs).
+
+Current Challenges:
+
+Data Alignment: Lack of uniform organization of data elements.
+
+Resource Distribution: Unequal allocation affecting harmonization efforts.
+
+Workflow Standardization: Complex and varied workflows resist uniform practices.
+
+Regulatory Constraints: Payment structures impacting accountability.
+
+Interoperability Issues: Difficulties in achieving seamless data exchange.
+
+Key Stakeholders & Contributions:
+
+NCI (National Cancer Institute):
+
+Developing FHIR Implementation Guides for cancer data.
+
+Enhancing research through standardized data collection (e.g., Cancer Immunology Data Commons).
+
+Challenges: Data cleaning and coordination, labor-intensive cancer registry data collection.
+
+CDC (Centers for Disease Control and Prevention):
+
+Mission focused on aligning data standards without increasing reporting burden.
+
+Emphasizes minimum necessary data for public health responses.
+
+HRSA's Approach:
+
+Transition from manual UDS (Uniform Data System) reporting to UDS+ using USCDI standards and FHIR-based connections.
+
+Successful pilot involving 4 million patients, lauded at ASTP Annual Meeting.
+
+Benefits of USCDI+ Adoption:
+
+Reduced Reporting Burden: Streamlined processes for health centers.
+
+Expanded Data Elements: New race/ethnicity data standards easing data capture.
+
+Enhanced Data Quality: More reliable data supporting public health and research.
+
+Collaboration Potential: Strengthening data-sharing frameworks and fostering better evaluation discussions.
+
+Future Steps & Recommendations:
+
+Clear Guidance & Support: Further clarity needed from ASTP.
+
+Vendor Engagement: Collaborate with EHR vendors for effective data capture.
+
+Implementation Timeline: Ensure reasonable timelines for health centers to adapt.
+
+Conclusion:
+
+Harmonization efforts through USCDI+ pave the way for higher quality, interoperable data, benefiting public health outcomes and reducing data burdens.
+
